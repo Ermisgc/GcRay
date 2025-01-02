@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_base.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_base.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov_base.cpp",
+  "output": "src/CMakeFiles/GcPOV.dir/pov_base.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_model.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_model.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov_model.cpp",
+  "output": "src/CMakeFiles/GcPOV.dir/pov_model.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_object.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_object.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov_object.cpp",
+  "output": "src/CMakeFiles/GcPOV.dir/pov_object.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_parser.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_parser.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov_parser.cpp",
+  "output": "src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/example",
+  "command": "/bin/x86_64-linux-gnu-g++-13  -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/example/../src/inc -g -o CMakeFiles/GcRay.dir/test.cpp.o -c /home/ermis/vs_project/GcRay/example/test.cpp",
+  "file": "/home/ermis/vs_project/GcRay/example/test.cpp",
+  "output": "example/CMakeFiles/GcRay.dir/test.cpp.o"
+}
+]

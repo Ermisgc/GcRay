@@ -1,11 +1,11 @@
 #include <iostream>
-#include "pov_object.h"
+#include "pov_parser.h"
 
 using namespace POV;
 
 int main() {
-	POV::Object obj;
-	obj.importObject("test_object");
-	obj.parserPOV("test.pov");
+	POV::POVParser obj;
+	obj.importObject("test.model");
+	obj.parserPOV();
 	return 0;
 }

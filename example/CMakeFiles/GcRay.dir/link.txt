@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/GcRay.dir/test.cpp.o -o ../bin/GcRay   -L/home/ermis/vs_project/GcRay/lib  -Wl,-rpath,/home/ermis/vs_project/GcRay/lib ../lib/libGcPOV.so 
