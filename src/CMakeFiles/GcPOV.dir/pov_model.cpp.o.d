@@ -169,9 +169,9 @@ src/CMakeFiles/GcPOV.dir/pov_model.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
   /home/ermis/vs_project/GcRay/src/./inc/pov_object.h \
-  /home/ermis/vs_project/GcRay/src/./inc/pov_base.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/codecvt.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
+  /home/ermis/vs_project/GcRay/src/./inc/pov_base.h

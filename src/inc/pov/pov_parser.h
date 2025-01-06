@@ -3,7 +3,6 @@
 
 namespace POV
 {
-    class POVObject;
     class POVParser{
         std::list<POVObject *> objs; 
     public:
@@ -18,10 +17,14 @@ namespace POV
 
         bool importObject(POVModel * pov_model);
 
-        bool setCamera();
+        bool setCamera(POVCamera* camera);
 
+        bool setLightSource(POVLightSource * lightsource);
+
+        bool setbackground(POVBackGround * bg);
+
+        bool addObject(POVObject * obj);
         //parser the scene to a .pov file
         bool parserPOV();
-
     };
 } // namespace POV

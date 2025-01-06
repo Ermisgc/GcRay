@@ -96,56 +96,71 @@ example/clean: example/CMakeFiles/GcRay.dir/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/GcPOV.dir/all
+src/all: src/pov/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
-src/preinstall:
+src/preinstall: src/pov/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/GcPOV.dir/clean
+src/clean: src/pov/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/GcPOV.dir
+# Directory level rules for directory src/pov
+
+# Recursive "all" directory target.
+src/pov/all: src/pov/CMakeFiles/GcPOV.dir/all
+.PHONY : src/pov/all
+
+# Recursive "preinstall" directory target.
+src/pov/preinstall:
+.PHONY : src/pov/preinstall
+
+# Recursive "clean" directory target.
+src/pov/clean: src/pov/CMakeFiles/GcPOV.dir/clean
+.PHONY : src/pov/clean
+
+#=============================================================================
+# Target rules for target src/pov/CMakeFiles/GcPOV.dir
 
 # All Build rule for target.
-src/CMakeFiles/GcPOV.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/GcPOV.dir/build.make src/CMakeFiles/GcPOV.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/GcPOV.dir/build.make src/CMakeFiles/GcPOV.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ermis/vs_project/GcRay/CMakeFiles --progress-num=1,2,3,4,5 "Built target GcPOV"
-.PHONY : src/CMakeFiles/GcPOV.dir/all
+src/pov/CMakeFiles/GcPOV.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ermis/vs_project/GcRay/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target GcPOV"
+.PHONY : src/pov/CMakeFiles/GcPOV.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/GcPOV.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/GcPOV.dir/all
+src/pov/CMakeFiles/GcPOV.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/pov/CMakeFiles/GcPOV.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 0
-.PHONY : src/CMakeFiles/GcPOV.dir/rule
+.PHONY : src/pov/CMakeFiles/GcPOV.dir/rule
 
 # Convenience name for target.
-GcPOV: src/CMakeFiles/GcPOV.dir/rule
+GcPOV: src/pov/CMakeFiles/GcPOV.dir/rule
 .PHONY : GcPOV
 
 # clean rule for target.
-src/CMakeFiles/GcPOV.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/GcPOV.dir/build.make src/CMakeFiles/GcPOV.dir/clean
-.PHONY : src/CMakeFiles/GcPOV.dir/clean
+src/pov/CMakeFiles/GcPOV.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/clean
+.PHONY : src/pov/CMakeFiles/GcPOV.dir/clean
 
 #=============================================================================
 # Target rules for target example/CMakeFiles/GcRay.dir
 
 # All Build rule for target.
-example/CMakeFiles/GcRay.dir/all: src/CMakeFiles/GcPOV.dir/all
+example/CMakeFiles/GcRay.dir/all: src/pov/CMakeFiles/GcPOV.dir/all
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/GcRay.dir/build.make example/CMakeFiles/GcRay.dir/depend
 	$(MAKE) $(MAKESILENT) -f example/CMakeFiles/GcRay.dir/build.make example/CMakeFiles/GcRay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ermis/vs_project/GcRay/CMakeFiles --progress-num=6,7 "Built target GcRay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ermis/vs_project/GcRay/CMakeFiles --progress-num=10,11 "Built target GcRay"
 .PHONY : example/CMakeFiles/GcRay.dir/all
 
 # Build rule for subdir invocation for target.
 example/CMakeFiles/GcRay.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example/CMakeFiles/GcRay.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ermis/vs_project/GcRay/CMakeFiles 0
 .PHONY : example/CMakeFiles/GcRay.dir/rule

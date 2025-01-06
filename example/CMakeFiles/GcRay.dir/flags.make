@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/example/../src/inc
+CXX_INCLUDES = -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/example/../src/inc/pov
 
 CXX_FLAGS = -g
 

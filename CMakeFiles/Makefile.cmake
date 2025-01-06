@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeLists.txt"
   "example/CMakeLists.txt"
   "src/CMakeLists.txt"
+  "src/pov/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -46,11 +47,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/pov/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/GcPOV.dir/DependInfo.cmake"
+  "src/pov/CMakeFiles/GcPOV.dir/DependInfo.cmake"
   "example/CMakeFiles/GcRay.dir/DependInfo.cmake"
   )

@@ -83,10 +83,24 @@ src/CMakeFiles/GcPOV.dir/pov_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GcPOV.dir/pov_base.cpp.s"
 	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ermis/vs_project/GcRay/src/pov_base.cpp -o CMakeFiles/GcPOV.dir/pov_base.cpp.s
 
+src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o: src/CMakeFiles/GcPOV.dir/flags.make
+src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o: /home/ermis/vs_project/GcRay/src/pov_camera.cpp
+src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o: src/CMakeFiles/GcPOV.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o"
+	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o -MF CMakeFiles/GcPOV.dir/pov_camera.cpp.o.d -o CMakeFiles/GcPOV.dir/pov_camera.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_camera.cpp
+
+src/CMakeFiles/GcPOV.dir/pov_camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GcPOV.dir/pov_camera.cpp.i"
+	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ermis/vs_project/GcRay/src/pov_camera.cpp > CMakeFiles/GcPOV.dir/pov_camera.cpp.i
+
+src/CMakeFiles/GcPOV.dir/pov_camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GcPOV.dir/pov_camera.cpp.s"
+	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ermis/vs_project/GcRay/src/pov_camera.cpp -o CMakeFiles/GcPOV.dir/pov_camera.cpp.s
+
 src/CMakeFiles/GcPOV.dir/pov_model.cpp.o: src/CMakeFiles/GcPOV.dir/flags.make
 src/CMakeFiles/GcPOV.dir/pov_model.cpp.o: /home/ermis/vs_project/GcRay/src/pov_model.cpp
 src/CMakeFiles/GcPOV.dir/pov_model.cpp.o: src/CMakeFiles/GcPOV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_model.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_model.cpp.o"
 	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/GcPOV.dir/pov_model.cpp.o -MF CMakeFiles/GcPOV.dir/pov_model.cpp.o.d -o CMakeFiles/GcPOV.dir/pov_model.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_model.cpp
 
 src/CMakeFiles/GcPOV.dir/pov_model.cpp.i: cmake_force
@@ -100,7 +114,7 @@ src/CMakeFiles/GcPOV.dir/pov_model.cpp.s: cmake_force
 src/CMakeFiles/GcPOV.dir/pov_object.cpp.o: src/CMakeFiles/GcPOV.dir/flags.make
 src/CMakeFiles/GcPOV.dir/pov_object.cpp.o: /home/ermis/vs_project/GcRay/src/pov_object.cpp
 src/CMakeFiles/GcPOV.dir/pov_object.cpp.o: src/CMakeFiles/GcPOV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_object.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_object.cpp.o"
 	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/GcPOV.dir/pov_object.cpp.o -MF CMakeFiles/GcPOV.dir/pov_object.cpp.o.d -o CMakeFiles/GcPOV.dir/pov_object.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_object.cpp
 
 src/CMakeFiles/GcPOV.dir/pov_object.cpp.i: cmake_force
@@ -114,7 +128,7 @@ src/CMakeFiles/GcPOV.dir/pov_object.cpp.s: cmake_force
 src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o: src/CMakeFiles/GcPOV.dir/flags.make
 src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o: /home/ermis/vs_project/GcRay/src/pov_parser.cpp
 src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o: src/CMakeFiles/GcPOV.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o"
 	cd /home/ermis/vs_project/GcRay/build/src && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o -MF CMakeFiles/GcPOV.dir/pov_parser.cpp.o.d -o CMakeFiles/GcPOV.dir/pov_parser.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_parser.cpp
 
 src/CMakeFiles/GcPOV.dir/pov_parser.cpp.i: cmake_force
@@ -128,6 +142,7 @@ src/CMakeFiles/GcPOV.dir/pov_parser.cpp.s: cmake_force
 # Object files for target GcPOV
 GcPOV_OBJECTS = \
 "CMakeFiles/GcPOV.dir/pov_base.cpp.o" \
+"CMakeFiles/GcPOV.dir/pov_camera.cpp.o" \
 "CMakeFiles/GcPOV.dir/pov_model.cpp.o" \
 "CMakeFiles/GcPOV.dir/pov_object.cpp.o" \
 "CMakeFiles/GcPOV.dir/pov_parser.cpp.o"
@@ -136,12 +151,13 @@ GcPOV_OBJECTS = \
 GcPOV_EXTERNAL_OBJECTS =
 
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/pov_base.cpp.o
+/home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/pov_model.cpp.o
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/pov_object.cpp.o
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/build.make
 /home/ermis/vs_project/GcRay/lib/libGcPOV.so: src/CMakeFiles/GcPOV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/ermis/vs_project/GcRay/lib/libGcPOV.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/ermis/vs_project/GcRay/lib/libGcPOV.so"
 	cd /home/ermis/vs_project/GcRay/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GcPOV.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

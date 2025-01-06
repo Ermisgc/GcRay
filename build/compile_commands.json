@@ -7,6 +7,12 @@
 },
 {
   "directory": "/home/ermis/vs_project/GcRay/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_camera.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_camera.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov_camera.cpp",
+  "output": "src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src",
   "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/./inc -g -fPIC -o CMakeFiles/GcPOV.dir/pov_model.cpp.o -c /home/ermis/vs_project/GcRay/src/pov_model.cpp",
   "file": "/home/ermis/vs_project/GcRay/src/pov_model.cpp",
   "output": "src/CMakeFiles/GcPOV.dir/pov_model.cpp.o"

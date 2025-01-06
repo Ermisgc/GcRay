@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 #include <string>
 #include "pov_base.h"
 
@@ -15,5 +16,9 @@ namespace POV {
 		std::string object_name;
 		virtual bool parserPOV(std::ofstream & os) = 0;
 	};
-
+	class POVModel;
+	class POVCamera;
+	class POVLightSource;
+	class POVBackGround;
+	class Sphere;
 }

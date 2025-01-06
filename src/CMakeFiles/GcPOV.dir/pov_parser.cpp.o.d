@@ -180,4 +180,7 @@ src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/allocated_ptr.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/aligned_buffer.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/list.tcc \
-  /home/ermis/vs_project/GcRay/src/./inc/pov_model.h
+  /home/ermis/vs_project/GcRay/src/./inc/pov_model.h \
+  /home/ermis/vs_project/GcRay/src/./inc/pov_camera.h \
+  /home/ermis/vs_project/GcRay/src/./inc/pov_lightsource.h \
+  /home/ermis/vs_project/GcRay/src/./inc/pov_background.h

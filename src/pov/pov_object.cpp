@@ -1,4 +1,4 @@
-#include "pov_object.h"
+#include "../inc/pov/pov_object.h"
 
 using namespace POV;
 

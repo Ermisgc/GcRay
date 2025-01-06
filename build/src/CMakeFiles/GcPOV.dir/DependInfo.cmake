@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ermis/vs_project/GcRay/src/pov_base.cpp" "src/CMakeFiles/GcPOV.dir/pov_base.cpp.o" "gcc" "src/CMakeFiles/GcPOV.dir/pov_base.cpp.o.d"
+  "/home/ermis/vs_project/GcRay/src/pov_camera.cpp" "src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o" "gcc" "src/CMakeFiles/GcPOV.dir/pov_camera.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov_model.cpp" "src/CMakeFiles/GcPOV.dir/pov_model.cpp.o" "gcc" "src/CMakeFiles/GcPOV.dir/pov_model.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov_object.cpp" "src/CMakeFiles/GcPOV.dir/pov_object.cpp.o" "gcc" "src/CMakeFiles/GcPOV.dir/pov_object.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov_parser.cpp" "src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o" "gcc" "src/CMakeFiles/GcPOV.dir/pov_parser.cpp.o.d"
