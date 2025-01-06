@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/ermis/vs_project/GcRay/src/pov/pov_background.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_background.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_background.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov/pov_base.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_base.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_base.cpp.o.d"
+  "/home/ermis/vs_project/GcRay/src/pov/pov_box.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov/pov_camera.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_camera.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_camera.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov/pov_lightsource.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_lightsource.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_lightsource.cpp.o.d"
   "/home/ermis/vs_project/GcRay/src/pov/pov_model.cpp" "src/pov/CMakeFiles/GcPOV.dir/pov_model.cpp.o" "gcc" "src/pov/CMakeFiles/GcPOV.dir/pov_model.cpp.o.d"

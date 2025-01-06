@@ -1,5 +1,7 @@
-example/CMakeFiles/GcRay.dir/test.cpp.o: \
-  /home/ermis/vs_project/GcRay/example/test.cpp \
+src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.o: \
+  /home/ermis/vs_project/GcRay/src/pov/pov_box.cpp \
+  /home/ermis/vs_project/GcRay/src/pov/../inc/pov/pov_box.h \
+  /home/ermis/vs_project/GcRay/src/pov/../inc/pov/pov_object.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -167,21 +169,9 @@ example/CMakeFiles/GcRay.dir/test.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_parser.h \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_object.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/codecvt.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_base.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/list \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stl_list.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/allocated_ptr.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ext/aligned_buffer.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/list.tcc \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_camera.h \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_model.h \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_lightsource.h \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_background.h \
-  /home/ermis/vs_project/GcRay/example/../src/inc/pov/pov_box.h
+  /home/ermis/vs_project/GcRay/src/pov/../inc/pov/pov_base.h

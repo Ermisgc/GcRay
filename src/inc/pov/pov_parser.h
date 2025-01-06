@@ -25,6 +25,6 @@ namespace POV
 
         bool addObject(POVObject * obj);
         //parser the scene to a .pov file
-        bool parserPOV();
+        bool parserPOV(const std::string & _file_name);
     };
 } // namespace POV

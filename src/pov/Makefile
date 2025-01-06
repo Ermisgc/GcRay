@@ -178,6 +178,30 @@ pov_base.cpp.s:
 	cd /home/ermis/vs_project/GcRay && $(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/pov_base.cpp.s
 .PHONY : pov_base.cpp.s
 
+pov_box.o: pov_box.cpp.o
+.PHONY : pov_box.o
+
+# target to build an object file
+pov_box.cpp.o:
+	cd /home/ermis/vs_project/GcRay && $(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.o
+.PHONY : pov_box.cpp.o
+
+pov_box.i: pov_box.cpp.i
+.PHONY : pov_box.i
+
+# target to preprocess a source file
+pov_box.cpp.i:
+	cd /home/ermis/vs_project/GcRay && $(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.i
+.PHONY : pov_box.cpp.i
+
+pov_box.s: pov_box.cpp.s
+.PHONY : pov_box.s
+
+# target to generate assembly for a file
+pov_box.cpp.s:
+	cd /home/ermis/vs_project/GcRay && $(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.s
+.PHONY : pov_box.cpp.s
+
 pov_camera.o: pov_camera.cpp.o
 .PHONY : pov_camera.o
 
@@ -337,6 +361,9 @@ help:
 	@echo "... pov_base.o"
 	@echo "... pov_base.i"
 	@echo "... pov_base.s"
+	@echo "... pov_box.o"
+	@echo "... pov_box.i"
+	@echo "... pov_box.s"
 	@echo "... pov_camera.o"
 	@echo "... pov_camera.i"
 	@echo "... pov_camera.s"

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GcPOV.dir/pov_background.cpp.o.d"
   "CMakeFiles/GcPOV.dir/pov_base.cpp.o"
   "CMakeFiles/GcPOV.dir/pov_base.cpp.o.d"
+  "CMakeFiles/GcPOV.dir/pov_box.cpp.o"
+  "CMakeFiles/GcPOV.dir/pov_box.cpp.o.d"
   "CMakeFiles/GcPOV.dir/pov_camera.cpp.o"
   "CMakeFiles/GcPOV.dir/pov_camera.cpp.o.d"
   "CMakeFiles/GcPOV.dir/pov_lightsource.cpp.o"

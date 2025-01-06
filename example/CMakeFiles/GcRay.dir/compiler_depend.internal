@@ -3,13 +3,14 @@
 
 example/CMakeFiles/GcRay.dir/test.cpp.o
  /home/ermis/vs_project/GcRay/example/test.cpp
- /home/ermis/vs_project/GcRay/src/inc/pov/pov_parser.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_background.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_base.h
+ /home/ermis/vs_project/GcRay/src/inc/pov/pov_box.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_camera.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_lightsource.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_model.h
  /home/ermis/vs_project/GcRay/src/inc/pov/pov_object.h
+ /home/ermis/vs_project/GcRay/src/inc/pov/pov_parser.h
  /usr/include/c++/13/backward/binders.h
  /usr/include/c++/13/bit
  /usr/include/c++/13/bits/alloc_traits.h

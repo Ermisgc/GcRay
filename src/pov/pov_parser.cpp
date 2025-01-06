@@ -38,8 +38,12 @@ bool POVParser::setLightSource(POVLightSource * lightsource){
     return true;
 }
 
-bool POVParser::parserPOV() {
-    std::ofstream outfile("test.pov", std::ios::out);
+bool POVParser::parserPOV(const std::string & _file_name) {
+    if(_file_name.substr(_file_name.find('.') + 1, 3) != "pov"){
+        std::cout << "the file name should be .pov" << std::endl;
+        return false;
+    } 
+    std::ofstream outfile(_file_name, std::ios::out);
 
     if (!outfile.is_open()) {
         std::cerr << "The outfile is not created or opened correctly" << std::endl;
