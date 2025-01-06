@@ -126,7 +126,7 @@ GcPOV: cmake_check_build_system
 
 # fast build rule for target.
 GcPOV/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/GcPOV.dir/build.make src/CMakeFiles/GcPOV.dir/build
+	$(MAKE) $(MAKESILENT) -f src/pov/CMakeFiles/GcPOV.dir/build.make src/pov/CMakeFiles/GcPOV.dir/build
 .PHONY : GcPOV/fast
 
 #=============================================================================

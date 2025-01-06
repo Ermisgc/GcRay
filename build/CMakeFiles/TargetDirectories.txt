@@ -1,8 +1,10 @@
 /home/ermis/vs_project/GcRay/build/CMakeFiles/edit_cache.dir
 /home/ermis/vs_project/GcRay/build/CMakeFiles/rebuild_cache.dir
-/home/ermis/vs_project/GcRay/build/src/CMakeFiles/GcPOV.dir
 /home/ermis/vs_project/GcRay/build/src/CMakeFiles/edit_cache.dir
 /home/ermis/vs_project/GcRay/build/src/CMakeFiles/rebuild_cache.dir
+/home/ermis/vs_project/GcRay/build/src/pov/CMakeFiles/GcPOV.dir
+/home/ermis/vs_project/GcRay/build/src/pov/CMakeFiles/edit_cache.dir
+/home/ermis/vs_project/GcRay/build/src/pov/CMakeFiles/rebuild_cache.dir
 /home/ermis/vs_project/GcRay/build/example/CMakeFiles/GcRay.dir
 /home/ermis/vs_project/GcRay/build/example/CMakeFiles/edit_cache.dir
 /home/ermis/vs_project/GcRay/build/example/CMakeFiles/rebuild_cache.dir

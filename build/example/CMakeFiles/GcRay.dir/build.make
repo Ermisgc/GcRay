@@ -73,15 +73,15 @@ example/CMakeFiles/GcRay.dir/test.cpp.o: example/CMakeFiles/GcRay.dir/flags.make
 example/CMakeFiles/GcRay.dir/test.cpp.o: /home/ermis/vs_project/GcRay/example/test.cpp
 example/CMakeFiles/GcRay.dir/test.cpp.o: example/CMakeFiles/GcRay.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ermis/vs_project/GcRay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/GcRay.dir/test.cpp.o"
-	cd /home/ermis/vs_project/GcRay/build/example && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/GcRay.dir/test.cpp.o -MF CMakeFiles/GcRay.dir/test.cpp.o.d -o CMakeFiles/GcRay.dir/test.cpp.o -c /home/ermis/vs_project/GcRay/example/test.cpp
+	cd /home/ermis/vs_project/GcRay/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT example/CMakeFiles/GcRay.dir/test.cpp.o -MF CMakeFiles/GcRay.dir/test.cpp.o.d -o CMakeFiles/GcRay.dir/test.cpp.o -c /home/ermis/vs_project/GcRay/example/test.cpp
 
 example/CMakeFiles/GcRay.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GcRay.dir/test.cpp.i"
-	cd /home/ermis/vs_project/GcRay/build/example && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ermis/vs_project/GcRay/example/test.cpp > CMakeFiles/GcRay.dir/test.cpp.i
+	cd /home/ermis/vs_project/GcRay/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ermis/vs_project/GcRay/example/test.cpp > CMakeFiles/GcRay.dir/test.cpp.i
 
 example/CMakeFiles/GcRay.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GcRay.dir/test.cpp.s"
-	cd /home/ermis/vs_project/GcRay/build/example && /bin/x86_64-linux-gnu-g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ermis/vs_project/GcRay/example/test.cpp -o CMakeFiles/GcRay.dir/test.cpp.s
+	cd /home/ermis/vs_project/GcRay/build/example && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ermis/vs_project/GcRay/example/test.cpp -o CMakeFiles/GcRay.dir/test.cpp.s
 
 # Object files for target GcRay
 GcRay_OBJECTS = \
