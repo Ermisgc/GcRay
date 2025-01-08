@@ -33,11 +33,11 @@ bool POVModel::setTexture(const std::string & _png){
 bool POVModel::parserPOV(std::ofstream & os) {
     // Append object information
     std::string texture_name = m_texture.substr(0, m_texture.find('.'));
-    std::string texture_type = m_texture.substr(m_texture.find('.'), 3);
+    std::string texture_type = m_texture.substr(m_texture.find('.') + 1, 3);
     std::string data[] = {
         "#declare " + texture_name + " = texture{\n",
         "    pigment{\n",
-        "        image_map {" + texture_type + " \"" + m_texture + "\"}\n",
+        "        image_map {" + texture_type + " \"" + texture_name + "\"}\n",
         "    }\n",
         "}\n",
         "#include \"" + object_name + "_POV_geom.inc\" //Geometry\n",
@@ -52,7 +52,7 @@ bool POVModel::parserPOV(std::ofstream & os) {
     };
     // write lines to file
     for (const auto& line : data) {
-        std::cout << line << std::endl;
+        // std::cout << line << std::endl;
         os << line;
     }
     return true;

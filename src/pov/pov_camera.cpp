@@ -32,7 +32,7 @@ bool POVCamera::parserPOV(std::ofstream & os){
 
     // write lines to file
     for (const auto& line : data) {
-        std::cout << line << std::endl;
+        // std::cout << line << std::endl;
         os << line;
     }
     return true;

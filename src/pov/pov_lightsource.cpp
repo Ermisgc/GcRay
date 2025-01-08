@@ -1,10 +1,17 @@
 #include "../inc/pov/pov_lightsource.h"
 using namespace POV;
 
-POVLightSource::POVLightSource():POVObject("lightsource"){
-}
+// POVLightSource::POVLightSource():POVObject("lightsource"){
+// }
 
 POVLightSource::~POVLightSource(){
+}
+
+POVLightSource::POVLightSource(const POVLightSource & other): ea(other.ea), POVObject("lightsource"){
+}
+
+POVLightSource::POVLightSource(EuleAngle && eule): ea(eule), POVObject("lightsource"){
+
 }
 
 bool POVLightSource::setLightSource(const EuleAngle & other){
@@ -32,7 +39,7 @@ bool POVLightSource::parserPOV(std::ofstream & os){
 
     // write lines to file
     for (const auto& line : data) {
-        std::cout << line;
+        // std::cout << line;
         os << line;
     }
     return true;

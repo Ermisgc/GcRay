@@ -1,7 +1,12 @@
 #include "../inc/pov/pov_background.h"
 using namespace POV;
 
-POVBackGround::POVBackGround():POVObject("background"){
+
+POVBackGround::POVBackGround(const Color && _c): color(_c), POVObject("background"){
+
+}
+POVBackGround::POVBackGround(const POVBackGround & other): color(other.color), POVObject("background"){
+
 }
 
 POVBackGround::~POVBackGround(){}
@@ -17,7 +22,7 @@ bool POVBackGround::parserPOV(std::ofstream & os){
 
     // write lines to file
     for (const auto& line : data) {
-        std::cout << line;
+        // std::cout << line;
         os << line;
     }
     return true;

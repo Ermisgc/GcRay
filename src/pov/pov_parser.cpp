@@ -39,8 +39,8 @@ bool POVParser::setLightSource(POVLightSource * lightsource){
 }
 
 bool POVParser::parserPOV(const std::string & _file_name) {
-    if(_file_name.substr(_file_name.find('.') + 1, 3) != "pov"){
-        std::cout << "the file name should be .pov" << std::endl;
+    if(_file_name.substr(_file_name.rfind('.') + 1, 3) != "pov"){
+        std::cout << "parser failed, the file name should be .pov but " + _file_name << std::endl;
         return false;
     } 
     std::ofstream outfile(_file_name, std::ios::out);
@@ -85,6 +85,7 @@ bool POVParser::deleteObject(const std::string & object_name){
             objs.erase(itr);
             return true;
         }
+        itr++;
     }
     return false;
 }
