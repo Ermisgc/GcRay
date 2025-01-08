@@ -27,7 +27,7 @@ for pov_file in "$pov_dir"/*.pov; do
     base_filename="${filename%.*}"
     
     # run POV-Ray with the rendering parameters
-    povray +W1024 +H960 +A0.01 +AM2 +O"$output_dir/$base_filename.png" +I"$pov_file"
+    povray +W1024 +H960 +O"$output_dir/$base_filename.png" +I"$pov_file"
     
     # 输出渲染状态信息
     echo "Rendered $base_filename.png"

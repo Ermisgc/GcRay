@@ -26,14 +26,21 @@ inline Location marsaglia(float radius){
 int main(int argc, char ** argv) {
 	const std::string object_name = "falanguanban3";
 	const int image_nums = 50;
+	const int light_nums = 10;
 	const Location object_center = {345.86999512, 0, 0};
 
 	POV::POVParser obj;
 	POVModel * model = new POVModel(object_name);
 	model->setTexture("lipurple.bmp");  // the texture image
 	obj.importObject(model);  
-	obj.setLightSource(new POVLightSource((EuleAngle){84.0015481918328, -11.9625174113741, -169.216345835825}));
 	obj.setbackground(new POVBackGround((Color){255, 255, 255}));
+
+	for(int i = 0;i < light_nums; ++i){
+		Location sphere = marsaglia(2000);
+		Location light_position = {object_center.x + sphere.x, object_center.y + sphere.y, object_center.z + sphere.z};
+		obj.setLightSource(new POVLightSource(light_position));
+	}
+	
 
 	//generate 50 sphere-even position of camera
 	for(int i = 0; i < image_nums; ++i){

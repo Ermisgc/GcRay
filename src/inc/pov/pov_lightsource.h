@@ -2,13 +2,14 @@
 
 namespace POV{
     class POVLightSource: public POVObject{
-        EuleAngle ea;
+        Location _loc;
     public:
         POVLightSource() = delete;
         POVLightSource(const POVLightSource &);
-        POVLightSource(EuleAngle && eule);
+        POVLightSource(Location && loc);
+        POVLightSource(Location & loc);
         ~POVLightSource();
-        bool setLightSource(const EuleAngle &);
+        bool setLightSource(const Location &);
         bool setLightSource(float r, float p, float y);
         bool parserPOV(std::ofstream & os);    
     };
