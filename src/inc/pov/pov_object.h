@@ -10,6 +10,7 @@ namespace POV {
 		friend class POVParser; //a friend class can use the private mathods.
 	public:
 		POVObject(const std::string & name);
+		std::string name();
 		virtual ~POVObject();
 
 	protected:  //users cannot directly parser this object to .pov

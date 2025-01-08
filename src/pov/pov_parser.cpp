@@ -77,3 +77,14 @@ bool POVParser::addObject(POVObject * obj){
     this->objs.push_back(obj);
     return true;
 }
+
+bool POVParser::deleteObject(const std::string & object_name){
+    auto itr = objs.begin();
+    while(itr != objs.end()){
+        if((*itr)->name() == object_name){
+            objs.erase(itr);
+            return true;
+        }
+    }
+    return false;
+}

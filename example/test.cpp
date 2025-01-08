@@ -8,25 +8,12 @@
 
 using namespace POV;
 
-int main() {
-	// POV::POVParser obj;
-	// //background
-	// POVBackGround * bg = new POVBackGround();
-	// bg->setBackGroundColor({255, 255, 255});
-	// obj.setbackground(bg);
+int main(int argc, char ** argv) {
+	const std::string object_name = "falanguanban3";
+	const Location object_center = {345.86999512, 0, 0};
+	//generate 50 sphere-even position of camera
+	
 
-	// //lightsource
-	// POV::POVLightSource * pls = new POVLightSource();
-	// pls->setLightSource({9.2131,2.04121,-13.312412});
-	// obj.setLightSource(pls);
-	// //camera
-	// POV::POVCamera * cmr = new POVCamera();
-	// cmr->setEuleAngle({26.124314,34.412451,-21.31241});
-	// obj.setCamera(cmr);
-	// POVModel * model = new POVModel("falanguanban3");
-	// model->setTexture("poseraylogo.png");
-	// obj.importObject(model);
-	// obj.parserPOV();
 	POV::POVParser obj;
 	obj.addObject(new POV::Box({-2,-2,-2}, {2, 2, 2}, 1.5));
 	obj.parserPOV("test2.pov");

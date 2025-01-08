@@ -7,17 +7,17 @@ namespace POV{
 
     class POVCamera : public POVObject{
         float m_focal;
-        EuleAngle ea;
+        // EuleAngle ea;
+        Location _loc;
+        Location _look_at;
     public:
         POVCamera();
+        POVCamera(const Location & loc, const Location & la);
         POVCamera(const POVCamera & );
         ~POVCamera();
-    
-        // bool setCameraType(CameraType);
-        // bool setLocation(Location);
-        // bool setLookAt(Location);
-        // bool setFocal(float focal);
-        bool setEuleAngle(const EuleAngle &);
+        // bool setEuleAngle(const EuleAngle &);  //about some intrinsic properties
+        bool setLocation(const Location & loc);
+        bool setLookAt(const Location & loc);
 
     protected:
         bool parserPOV(std::ofstream & os);

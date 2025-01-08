@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_background.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_background.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_background.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_background.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_base.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_base.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_base.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_base.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_box.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_box.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_box.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_box.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_camera.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_camera.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_camera.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_camera.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_lightsource.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_lightsource.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_lightsource.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_lightsource.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_model.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_model.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_model.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_model.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_object.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_object.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_object.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_object.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_parser.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_parser.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_parser.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_parser.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/src/pov",
+  "command": "/bin/x86_64-linux-gnu-g++-13 -DGcPOV_EXPORTS -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/src/pov/../inc/pov -g -fPIC -o CMakeFiles/GcPOV.dir/pov_sphere.cpp.o -c /home/ermis/vs_project/GcRay/src/pov/pov_sphere.cpp",
+  "file": "/home/ermis/vs_project/GcRay/src/pov/pov_sphere.cpp",
+  "output": "src/pov/CMakeFiles/GcPOV.dir/pov_sphere.cpp.o"
+},
+{
+  "directory": "/home/ermis/vs_project/GcRay/build/example",
+  "command": "/bin/x86_64-linux-gnu-g++-13  -I/home/ermis/vs_project/GcRay/example -I/home/ermis/vs_project/GcRay/example/../src/inc/pov -g -o CMakeFiles/GcRay.dir/test.cpp.o -c /home/ermis/vs_project/GcRay/example/test.cpp",
+  "file": "/home/ermis/vs_project/GcRay/example/test.cpp",
+  "output": "example/CMakeFiles/GcRay.dir/test.cpp.o"
+}
+]
